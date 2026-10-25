@@ -78,3 +78,5 @@
 | `web/icons/Icon-maskable-512.png` | Proportional official-logo launcher/browser derivative |
 | `web/index.html` | Visible application name, platform theme or launcher generation configuration |
 | `web/manifest.json` | Visible application name, platform theme or launcher generation configuration |
+| `branding/changed-files.md` | Complete change-purpose inventory |
+| `branding/REBRANDING-REPORT.md` | Measurements, scope, validation results and build limitations |
