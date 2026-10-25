@@ -12,7 +12,7 @@ Solid artwork pixels measured directly: primary green #0D6937; secondary yellow 
 
 ## Assets and scope
 
-The original logo was neither cropped nor recoloured. All icon derivatives fit the full artwork with aspect ratio retained, accepting integer-pixel rounding. Android adaptive foreground and web maskable artwork use a centred 60% bounding box for safe area clearance; legacy/iOS icons use 86% and a white background. iOS store icons are opaque. At small icon sizes the full detailed logo naturally loses legibility; no simplified substitute has been invented. Dimensions, file sizes and alpha ranges are recorded in asset-inventory-after.csv.
+The original logo was neither cropped nor recoloured. All icon derivatives fit the full artwork with aspect ratio retained, accepting integer-pixel rounding. Android adaptive foreground uses a centred 56% bounding box, with every nontransparent pixel verified inside the 66/108-diameter safe circle. Web maskable artwork uses 60%; legacy/iOS icons use 86% and a white background. iOS store icons are opaque. At small icon sizes the full detailed logo naturally loses legibility; no simplified substitute has been invented. Dimensions, file sizes and alpha ranges are recorded in asset-inventory-after.csv.
 
 Login and app-lock retain their original layout, with modestly widened logo boxes. The existing background geometry and onboarding phone compositions remain. Only magenta pixels were mapped to green; the first onboarding panel's embedded Mobo heading was replaced by the official artwork. The replacement splash is a static logo video, 1080 x 1920, H.264, 3.6 seconds; original splash routing, timing and authentication code remain unchanged. Native splash assets use white backgrounds.
 
@@ -30,4 +30,4 @@ When a Flutter SDK with Dart >=3.8.1 and Android SDK are available, run from thi
 
 ## Review
 
-Changes are on the local branch rebrand/eman-bakeries, with the untouched import committed separately. Review branding/changed-files.md and the supplied binary Git patch against the import baseline. No release was published and main was not overwritten. The full project ZIP contains all original source paths plus the branding changes and this review record; it excludes caches and credentials.
+Changes are on the GitHub review branch rebrand/eman-bakeries, with the untouched import committed separately. Review branding/changed-files.md and the supplied binary Git patch against the import baseline. No release was published and main was not overwritten. The full project ZIP contains all original source paths plus the branding changes and this review record; it excludes caches and credentials.
