@@ -140,18 +140,18 @@ class LoginLayout extends StatelessWidget {
           padding: const EdgeInsets.only(bottom: 6.0),
           child: Image.asset(
             'assets/login_logo_billing.png',
-            width: 32,
-            height: 32,
+            width: 64,
+            height: 46,
             fit: BoxFit.contain,
           ),
         ),
         const SizedBox(width: 12),
         const Text(
-          'mobo Billing',
+          'Eman Bakeries',
           style: TextStyle(
             fontFamily: 'YaroRg',
             color: Colors.white,
-            fontSize: 28,
+            fontSize: 24,
           ),
         ),
       ],

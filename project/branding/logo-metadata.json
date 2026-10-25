@@ -1,0 +1,69 @@
+{
+  "width": 4961,
+  "height": 3509,
+  "aspect_ratio": "41:29",
+  "size_bytes": 848941,
+  "format": "PNG",
+  "mode": "RGBA",
+  "icc_profile_present": false,
+  "metadata_keys": [
+    "dpi"
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "sha256": "0dde4e2d8f9d1d78516e943e9bf61e4743daf259b0d9f0e0572804ba08e0b1d3",
+  "colours": [
+    {
+      "hex": "#FFFFFF",
+      "alpha": 0,
+      "pixels": 6819711
+    },
+    {
+      "hex": "#FFFFFF",
+      "alpha": 255,
+      "pixels": 6176575
+    },
+    {
+      "hex": "#0D6937",
+      "alpha": 255,
+      "pixels": 2385154
+    },
+    {
+      "hex": "#FCD920",
+      "alpha": 255,
+      "pixels": 1179855
+    },
+    {
+      "hex": "#EA1C2D",
+      "alpha": 255,
+      "pixels": 710718
+    },
+    {
+      "hex": "#BBCAB9",
+      "alpha": 255,
+      "pixels": 4433
+    },
+    {
+      "hex": "#FAC8B7",
+      "alpha": 255,
+      "pixels": 3947
+    },
+    {
+      "hex": "#759775",
+      "alpha": 224,
+      "pixels": 2998
+    },
+    {
+      "hex": "#ED4B40",
+      "alpha": 224,
+      "pixels": 2752
+    },
+    {
+      "hex": "#0D6937",
+      "alpha": 128,
+      "pixels": 2628
+    }
+  ]
+}

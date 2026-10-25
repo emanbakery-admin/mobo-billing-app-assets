@@ -160,9 +160,9 @@ class ReviewService {
         path: 'cybroplay@gmail.com',
         query: encodeQueryParameters(<String, String>{
           'subject':
-              'Feedback for Mobo Billing for Odoo (${rating.toInt()} Stars)',
+              'Feedback for Eman Bakeries (${rating.toInt()} Stars)',
           'body':
-              'Rating: ${rating.toInt()}/5\n\nComment:\n$comment\n\n---\nSent from Mobo Billing for Odoo',
+              'Rating: ${rating.toInt()}/5\n\nComment:\n$comment\n\n---\nSent from Eman Bakeries',
         }),
       );
 

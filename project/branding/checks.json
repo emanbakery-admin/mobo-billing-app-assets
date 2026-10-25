@@ -1,0 +1,29 @@
+{
+  "flutter_checks": [
+    {
+      "command": "flutter analyze",
+      "cwd": "project",
+      "exit_code": 127,
+      "result": "blocked; SDK missing"
+    },
+    {
+      "command": "flutter test",
+      "cwd": "project",
+      "exit_code": 127,
+      "result": "blocked; SDK missing"
+    },
+    {
+      "command": "flutter build apk --debug",
+      "cwd": "project",
+      "exit_code": 127,
+      "result": "blocked; SDK missing"
+    }
+  ],
+  "passed": [
+    "Original PNG and both in-app copies byte-identical",
+    "Four social icons unchanged",
+    "Models, providers and tests unchanged",
+    "XML/plist/storyboard and web manifest parse",
+    "All images decode"
+  ]
+}

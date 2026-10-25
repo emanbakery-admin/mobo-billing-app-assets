@@ -279,7 +279,7 @@ class _PaymentDetailScreenState extends State<PaymentDetailScreen>
                     style: GoogleFonts.manrope(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
-                      color: const Color(0xFFC03355),
+                      color: AppTheme.primaryColor,
                     ),
                   ),
                   Container(

@@ -37,7 +37,7 @@ class _AppLockScreenState extends State<AppLockScreen> {
 
     try {
       final success = await BiometricService.authenticateWithBiometrics(
-        reason: 'Please authenticate to access the MOBO Billing App',
+        reason: 'Please authenticate to access the Eman Bakeries App',
       );
 
       if (mounted) {
@@ -156,13 +156,13 @@ class _AppLockScreenState extends State<AppLockScreen> {
       children: [
         Image.asset(
           'assets/app_lock_logo.png',
-          width: 32,
-          height: 32,
-          fit: BoxFit.fitWidth,
+          width: 64,
+          height: 46,
+          fit: BoxFit.contain,
         ),
         const SizedBox(width: 12),
         const Text(
-          'mobo billing',
+          'Eman Bakeries',
           style: TextStyle(
             fontFamily: 'YaroRg',
             color: Colors.white,

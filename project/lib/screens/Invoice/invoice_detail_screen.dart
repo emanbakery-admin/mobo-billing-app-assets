@@ -540,7 +540,7 @@ class _InvoiceDetailScreenState extends State<InvoiceDetailScreen>
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
-                      color: const Color(0xFFC03355),
+                      color: AppTheme.primaryColor,
                     ),
                   ),
                   Container(
@@ -1332,7 +1332,7 @@ class _InvoiceDetailScreenState extends State<InvoiceDetailScreen>
         return Container(
           width: double.infinity,
           decoration: BoxDecoration(
-            color: isDark ? const Color(0xFF000000) : const Color(0xFFFAE6E8),
+            color: isDark ? const Color(0xFF000000) : AppTheme.brandTint,
           ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -1403,7 +1403,7 @@ class _InvoiceDetailScreenState extends State<InvoiceDetailScreen>
               ),
               const SizedBox(height: 8),
               Container(
-                color: const Color(0xFFC03355),
+                color: AppTheme.primaryColor,
                 child: SafeArea(
                   top: false,
                   left: false,
@@ -1417,7 +1417,7 @@ class _InvoiceDetailScreenState extends State<InvoiceDetailScreen>
                       top: 12,
                       bottom: 24,
                     ),
-                    decoration: const BoxDecoration(color: Color(0xFFC03355)),
+                    decoration: const BoxDecoration(color: AppTheme.primaryColor),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [

@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  static const Color primaryColor = Color(0xFFC03355);
-  static const Color vivaMagentaLight = Color(0xFFC03355);
-  static const Color vivaMagentaDark = Color(0xFFC03355);
-  static const Color vivaMagentaAccent = Color(0xFFC03355);
+  // Solid colours measured from the untouched official Eman Bakeries PNG.
+  static const Color primaryColor = Color(0xFF0D6937);
+  static const Color brandYellow = Color(0xFFFCD920);
+  static const Color brandRed = Color(0xFFEA1C2D);
+  static const Color brandTint = Color(0xFFE7F0EB);
+  static const Color brandPrimaryLight = primaryColor;
+  static const Color brandPrimaryDark = primaryColor;
+  static const Color brandPrimaryAccent = primaryColor;
 
   static const Color white = Colors.white;
   static const Color offWhite = Color(0xFFFAFAFA);
@@ -24,7 +28,7 @@ class AppTheme {
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [primaryColor, vivaMagentaLight],
+    colors: [primaryColor, brandPrimaryLight],
   );
 
   static const LinearGradient cardGradient = LinearGradient(
@@ -190,7 +194,7 @@ class AppTheme {
         backgroundColor: primaryColor.withOpacity(0.1),
         labelStyle: const TextStyle(color: primaryColor),
         selectedColor: primaryColor,
-        secondarySelectedColor: vivaMagentaLight,
+        secondarySelectedColor: brandPrimaryLight,
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
@@ -293,12 +297,12 @@ class AppTheme {
         seedColor: primaryColor,
         brightness: Brightness.light,
         primary: primaryColor,
-        secondary: vivaMagentaAccent,
-        tertiary: vivaMagentaLight,
+        secondary: brandYellow,
+        tertiary: brandRed,
         surface: white,
         background: white,
         onPrimary: white,
-        onSecondary: white,
+        onSecondary: textDark,
         onSurface: textDark,
         onBackground: textDark,
       ),
@@ -327,11 +331,11 @@ class AppTheme {
         seedColor: primaryColor,
         brightness: Brightness.dark,
         primary: primaryColor,
-        secondary: vivaMagentaAccent,
+        secondary: brandYellow,
         surface: darkSurface,
         background: darkBackground,
         onPrimary: Colors.white,
-        onSecondary: Colors.white,
+        onSecondary: textDark,
         onSurface: Colors.white,
         onBackground: Colors.white,
       ),
